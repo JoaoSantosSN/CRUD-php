@@ -5,5 +5,9 @@
     $nome = $_POST['nome'];
     $telefone = $_POST['telefone'];
 
-    $query = mysqli_query($conexao, "UPDATE clientes SET cli_nome = \"$nome\", );
+    $query = mysqli_query($conexao, "UPDATE clientes SET cli_nome = \"$nome\", cli_telefone = \"$telefone\" WHERE cli_cod = '$codigo'");
 ?>
+<script>
+    alert("Cliente adulterado com sucesso!");
+    window.location.href="cliente.php"
+</script>

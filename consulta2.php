@@ -36,7 +36,10 @@
                 echo "<td>" . $codigo . "</td>";
                 echo "<td>" . $nome . "</td>";
                 echo "<td>" . $telefone . "</td>";
-                echo "<td><a href=alterar.php?id=" . $codigo . ">editar</a></td>";
+                echo "<td><a href=alterar.php?id=" . $codigo . "
+                >editar</a></td>";
+                echo "<td><a href=deletar.php?id=" . $codigo . "
+                >excluir</a></td>";
                 echo "</tr>";
             }
             mysqli_close($conexao);

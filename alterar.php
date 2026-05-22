@@ -19,7 +19,7 @@
     <title>Alterar campos</title>
 </head>
 <body>
-    <form method="post" action="alterar.php">
+    <form method="post" action="alterar1.php">
     <table>
         <tr>
             <td>Codigo</td>

@@ -12,5 +12,5 @@ $query = mysqli_query(
 ?>
 <script>
     alert("Cliente inserido com sucesso")
-    window.location.href = "index.php"
+    window.location.href = "cliente.php"
 </script>

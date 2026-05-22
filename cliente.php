@@ -21,7 +21,6 @@
     </table>
     </form>
     <p><a href="consulta.php">Consultar clientes</a></p>
-    <p><a href="alterar.php">Alterar dados de cliente</a></p>
     <br>
     <p><a href="index.php">Voltar para o menu</a></p>
 </body>
