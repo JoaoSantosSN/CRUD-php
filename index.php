@@ -10,7 +10,6 @@
 </head>
 <body>
 <h1>MENU DE CRUD</h1>
-<p><a href="cliente.php">inserir cliente</a></p>
-<p><a href="consulta1.php">consultar cliente</a></p>
+<p><a href="cliente.php">gerenciar clientes</a></p>
 </body
 </html>

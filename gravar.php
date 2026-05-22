@@ -1,8 +1,8 @@
 <?php
 include "conecta.php";
 
-$nome = $_POST['Nome'];
-$telefone = $_POST['Telefone'];
+$nome = $_POST['nome'];
+$telefone = $_POST['telefone'];
 
 $query = mysqli_query(
     $conexao,
